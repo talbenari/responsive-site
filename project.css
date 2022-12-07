@@ -90,12 +90,19 @@ h2 {
     align-items: center;
     justify-content: space-around;
     border-radius: 10px;
+    transition: ease 250ms;
 }
 
 .imgDiv:hover {
-    /* border: 4px solid black; */
     background-color: rgb(240, 206, 156);
     cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+.imgs {
+    width: 90%;
+    border: 2px solid rgb(78, 87, 95);
 }
 
 .prices {
@@ -173,6 +180,11 @@ button {
     border-radius: 8px;
     border: 1px solid white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    transition: ease 200ms;
+}
+
+button:hover {
+    transform:scale(0.95)
 }
 
 input::placeholder {
@@ -217,6 +229,12 @@ h5 {
 
 .icon {
     margin: 1% 3% 1% 3%;
+    transition: ease 250ms;
+}
+
+.icon:hover {
+    transform: scale(1.1) rotate(5deg);
+
 }
 
 @media screen and (max-width:768px) {
@@ -254,8 +272,12 @@ h5 {
         display: flex;
     }
 
+    .imgs {
+        margin-top: 5%;
+    }
+
     .prices {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     #footer {
