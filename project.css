@@ -94,7 +94,7 @@ h2 {
 }
 
 .imgDiv:hover {
-    background-color: rgb(240, 206, 156);
+    background-color: rgb(238, 201, 145);
     cursor: pointer;
     transform: scale(1.1);
 
@@ -184,7 +184,7 @@ button {
 }
 
 button:hover {
-    transform:scale(0.95)
+    transform: scale(0.95)
 }
 
 input::placeholder {
