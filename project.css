@@ -101,7 +101,7 @@ h2 {
 .prices {
     font-size: 25px;
     text-align: center;
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(53, 53, 54);
 }
 
@@ -118,7 +118,7 @@ h3 {
 
 h4 {
     text-align: center;
-    font-size: 4vw;
+    font-size: 3vw;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -141,13 +141,14 @@ h4 {
 }
 
 .inputDiv {
-    width: 40%;
+    /* width: 40%; */
     display: flex;
     align-items: center;
-
 }
 
 .inputText {
+    display: inline-block;
+    text-align: justify;
     font-size: 135%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -205,17 +206,17 @@ h5 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    font-size: 3vw;
+    font-size: 2vw;
     margin-top: 50px;
 }
 
 #socialMedia {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 7vh;
 }
 
 .icon {
-margin: 1% 3% 1% 3%;
+    margin: 1% 3% 1% 3%;
 }
 
 @media screen and (max-width:768px) {
@@ -226,7 +227,7 @@ margin: 1% 3% 1% 3%;
     #logo {
         width: 10%;
     }
-    
+
     #div1 {
         flex-direction: column;
         align-items: center;
@@ -258,20 +259,20 @@ margin: 1% 3% 1% 3%;
     }
 
     #footer {
-        height: 750px;
+        height: 700px;
     }
 
     #signing {
-        /* padding-left: 0%; */
         margin-right: 15vw;
         flex-direction: column;
         justify-content: space-around;
-        align-items:center;
+        align-items: center;
 
     }
 
     .inputDiv {
-        justify-content:center;
+        justify-content: center;
+        width: 88%;
     }
 
     input {
@@ -283,7 +284,7 @@ margin: 1% 3% 1% 3%;
     }
 
     button {
-        width:20vw;
+        width: 20vw;
         margin-right: 0px;
     }
 
